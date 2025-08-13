@@ -11,10 +11,7 @@ public class Car {
         this.color = color;
     }
 
-    void display(){
-        System.out.println("Car name : " +name);
-        System.out.println("Car model : " + model);
-        System.out.println(price);
-        System.out.println(color);
+    public String toString(){
+        return "Car name  : " + name + " , Car model " + model + " , car price" + price;
     }
 }

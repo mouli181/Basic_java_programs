@@ -1,5 +1,7 @@
 package list;
 
+import mypackage.MyPrivate;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
@@ -16,7 +18,7 @@ public class ArrayListEx {
         System.out.println(l.peek());
 
 
-
-
+        MyPrivate m = new MyPrivate(10);
+        m.display();
     }
 }

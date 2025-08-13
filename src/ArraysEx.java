@@ -7,11 +7,13 @@ public class ArraysEx {
         arr[3] = 50;
         arr[4] = 60;
 
-        for(int i=0;i<arr.length;i++){
-            System.out.println(arr[i]);
-        }
+//        for(int i=0;i<arr.length;i++){
+//            System.out.println(arr[i]);
+//        }
         // Enhanced for loop
-
+        for(int a : arr){
+            System.out.println(a);
+        }
 
 
     }
